@@ -1,5 +1,5 @@
 ---
-title: 'Logistic Regression Prediction Model '
+title: Logistic Regression Prediction Model for Cardiovascular Disease
 subtitle: Optional Project Subtitle
 date: '2018-12-18'
 thumb_image: images/6_thumb.jpg
