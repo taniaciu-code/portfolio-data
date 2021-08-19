@@ -30,11 +30,18 @@ seo:
       relativeUrl: true
 layout: page
 ---
+Hello, my name is Tania Ciu. I have a passion in data science, data analytics, and data visualization. Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus sagittis enim est, et semper lectus hendrerit ut.
+## Education
 
->The world always seems brighter when you’ve just made something that wasn’t there before. - Neil Gaiman
+**Universitas Multimedia Nusantara**
 
-In sollicitudin imperdiet turpis quis accumsan. Pellentesque euismod turpis et nisi fermentum accumsan. Sed mollis vehicula augue sit amet accumsan. Nunc mollis, risus sed ullamcorper bibendum, odio est molestie tellus, venenatis rutrum mauris nibh at nibh. In a auctor leo, eu pretium ante. Quisque faucibus tincidunt fringilla. Donec tempor accumsan ante, in cursus metus tincidunt at. Proin sit amet ligula sed libero consequat consectetur eu tincidunt nulla. 
+Aug 2018 - Present 
 
-*Thank You for reading!*
+Bachelor's Degree
+
+Majoring in Information System
+
+CGPA: 3.9 / 4.0
+
+## &#xA;&#xA;&#xA;&#xA;
