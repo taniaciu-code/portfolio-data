@@ -2210,7 +2210,7 @@ plt.title('Plot Close dengan Positive Sentiment')
 
 
 
-![png](output_72_1.png)
+![png](/images/output_72_1.png)
 
 
 
