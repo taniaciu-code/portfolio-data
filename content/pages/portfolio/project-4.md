@@ -85,6 +85,7 @@ In the dashboard above, it can be seen that there is a scatter plot with the con
 
 <div align="justify">
 On the dashboard above, there are 5 trend lines, namely Linear, Logarithmic, Exponential, Polynomial, and Power. The five trend lines have a p-Value of more than 0.05, which means that there is no significant trend line at an alpha of 0.05. However, of the 5 trend lines, the lowest p-value is the polynomial trend line.
+<br>
 Of the 5 trend lines on the dashboard, the polynomial trend line has the highest R-Squared compared to other trend lines, which is around 0.0476. This means that the polynomial trend line can explain about 4% of the variance in the data, whereas when viewed from the standard error, both the exponential trend line and the power trend line have very similar standard error values, which are around 0.059. The exponential trend line has a slightly smaller standard error, and has the smallest standard error compared to other trend lines. Based on the p-Value, R-Squared, and standard error values, it is concluded that the polynomial trend line is the most suitable compared to other trend lines because it has the smallest p-Value and the largest R-Squared among the 5 trend lines on the dashboard.
 </div>
 
