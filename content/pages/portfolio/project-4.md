@@ -75,6 +75,10 @@ The Pareto chart in this study is used to see the frequency of floods by provinc
 
 ![png](/images/Das4.png)
 
+<div align="justify">
+In the dashboard above, it can be seen that there is a scatter plot with the concept of clustering which represents the grouping of regions in Indonesia based on the level of rainfall (precipitation) and average temperature. In addition, the dashboard also contains a bar chart of the length of flooding per month in Indonesia. This dashboard was created with the aim of seeing the effect of rainfall levels and average temperature on the duration of flooding in Indonesia. Because the longer the flood occurs, the greater the losses borne by the community. With the results of the analysis of this visualization, it can be obtained information on the duration of the flood, the level of rainfall, and the average temperature which is used as a basis for taking flood preventive measures or flood disaster mitigation measures in Indonesia.
+</div>
+
 ### Dashboard | Comparison of 5 Types of Trend Lines between Average Temperature and Rainfall Rates
 
 ![png](/images/Das5-1f9e4bef.png)
