@@ -45,16 +45,6 @@ rating and review given. In this project, we will build a multiclass text classi
 ## Data Preparation
 
 
-```python
-from google.colab import drive
-drive.mount('/gdrive')
-%cd /gdrive
-```
-
-    Mounted at /gdrive
-    /gdrive
-    
-
 
 ```python
 import pandas as pd
