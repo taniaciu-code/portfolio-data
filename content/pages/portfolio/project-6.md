@@ -1,6 +1,6 @@
 ---
 title: Logistic Regression Prediction Model for Cardiovascular Disease
-subtitle: Optional Project Subtitle
+subtitle: Aug 2019 - Feb 2020
 date: '2018-12-18'
 thumb_image: /images/cardio.jpg
 thumb_image_alt: A handheld game console on a yellow background
