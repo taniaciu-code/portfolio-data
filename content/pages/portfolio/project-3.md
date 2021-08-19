@@ -513,7 +513,7 @@ plot_confusion_matrix(conf_matrix_nb)
 
     Accuracy Score = 0.8738038277511961
 
-![png](/images/output_19_1.png)
+![png](/images/output_191.png)
 
 
 ## Comparation of Support Vector Machine and Naive Bayes Algorithm Model
