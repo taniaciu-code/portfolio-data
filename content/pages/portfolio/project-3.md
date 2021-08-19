@@ -4,7 +4,7 @@ subtitle: Aug 2020 - Dec 2020
 date: '2019-04-08'
 thumb_image: /images/sms.jpg
 thumb_image_alt: A yellow retro telephone on a yellow background
-image: images/3.jpg
+image: /images/sms-b4dff986.jpg
 image_alt: A yellow retro telephone on a yellow background
 seo:
   title: Project Title 3
