@@ -1468,7 +1468,7 @@ output
 
 
 
-## Plot with Time series
+### Plotting
 
 
 ```python
