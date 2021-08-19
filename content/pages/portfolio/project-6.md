@@ -88,7 +88,7 @@ plot_histogram(Data,
 
 ```
 
-Plot Correlation
+## Plot Correlation
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 install.packages("GGally")
