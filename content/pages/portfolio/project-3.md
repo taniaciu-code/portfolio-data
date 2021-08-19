@@ -497,6 +497,7 @@ plot_confusion_matrix(conf_matrix_svm)
 
 ### Modeling with Naive Bayes Algorithm
 
+
 ```python
 from sklearn.naive_bayes import GaussianNB
 
