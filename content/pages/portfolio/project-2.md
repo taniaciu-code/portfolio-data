@@ -998,7 +998,7 @@ plt.show()
 ![png](/images/output_44_1.png)
 
 
-# Modeling with Multinomial Naive Bayes
+## Modeling with Multinomial Naive Bayes
 
 
 ```python
