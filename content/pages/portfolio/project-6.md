@@ -1,5 +1,5 @@
 ---
-title: Logistic Regression
+title: 'Logistic Regression Prediction Model '
 subtitle: Optional Project Subtitle
 date: '2018-12-18'
 thumb_image: images/6_thumb.jpg
