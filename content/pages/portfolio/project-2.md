@@ -38,7 +38,18 @@ layout: project
 ---
 
 <div align="justify>
-
+—With the easiness of expressing one’s expression 
+through digital advancements in technologies, social media has 
+become a medium for people to express their feelings. This 
+phenomena is also happening in the e-commerce industry, where 
+a user’s sentiment towards a product can be seen through the 
+rating and review given. In this paper, we will build a multiclass 
+text classification model using a dataset that is used at Shopee 
+Code League 2020 based on various algorithms, which include 
+Long-Short Term Memory, Support Vector Machine, Naïve Bayes 
+and Random Forest. Final results and observation of this research 
+is expected to be in the form of a model that is able to predict a 
+product’s rating out of customer’s review with high accuracy
 </div>
 
 ## Data Preparation
