@@ -216,7 +216,7 @@ cv.err.10$delta
 
 ```
 >cv.err.10$delta
-[1] 
+[1] 0.1406565 0.1397245
 ```
 <div align="justify">
 The method used to validate the logistic regression model used in this study is the k-fold cross-validation method with k-fold value of 10. Following is the syntax of the k-fold cross-validation method. Based on 
