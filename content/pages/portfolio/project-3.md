@@ -458,6 +458,10 @@ Data that has undergone data pre-processing in the previous process will be mapp
 encoded_labels = data['label'].map(lambda x: 1 if x == 'spam' else 0).values # ham will be 0 and spam will be 1
 ```
 
+<div align="justify">
+Furthermore, the data will be divided into training data and testing data where 70% of the data will be used as training data and 30% of the data will be used as testing data.
+</div>
+
 ```python
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(features, encoded_labels, 
