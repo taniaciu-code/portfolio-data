@@ -416,7 +416,7 @@ generate_wordcloud(ham)
 ```
 
 
-![png](output_7_0.png)
+![png](/images/output_7_0.png)
 
 
 
