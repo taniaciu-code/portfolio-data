@@ -847,11 +847,11 @@ plot_graphs(history, "loss")
 ```
 
 
-![png](output_36_0.png)
+![png](/images/output_36_0.png)
 
 
 
-![png](output_36_1.png)
+![png](/images/output_36_1.png)
 
 
 # Modeling with Random Forest
