@@ -90,6 +90,7 @@ plot_histogram(Data,
 
 ```
 ![png](/images/da1.png)
+
 ## Plot Correlation
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
