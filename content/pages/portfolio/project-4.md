@@ -57,7 +57,8 @@ In the dashboard above, the researcher uses the tools available in Tableau to vi
 At the top right of the dashboard, you can see a bar chart showing the number of floods per year in the districts/cities selected by the user on the map on the left. Meanwhile, at the bottom right of the dashboard, there is a web page object that can access Wikipedia. The web page object will open the Wikipedia page that matches the user's choice on the map.
 </div>
 
-### Dashboard | Flood Frequency and Average Temperature&#xA;![](/images/Das3.png)
+### Dashboard | Flood Frequency and Average Temperature
+&#xA;![](/images/Das3.png)
 
 ## Prediction Visualization
 
