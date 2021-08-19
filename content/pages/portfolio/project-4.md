@@ -68,6 +68,7 @@ In addition, the results of the control diagram also show that from 1985 to 2020
 <br>
 The Pareto chart in this study is used to see the frequency of floods by province. Pareto chart is basically a dual combination chart which consists of a bar chart which represents the quantity of a categorical variable and a line chart which represents the cumulative total of the quantity of categorical variables. In this study, the bar chart in the Pareto chart represents the number or frequency of floods from categorical variables in the form of the name of the province, while the line chart represents the cumulative total of the number or frequency of floods based on the name of the province.
 </div>
+
 ## Prediction Visualization
 
 ### Dashboard | Region and Flood Duration Clustering in Indonesia
