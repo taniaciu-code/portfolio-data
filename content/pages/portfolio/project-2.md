@@ -639,35 +639,6 @@ un_words_count.head(10)
 
 ## Splitting Data
 
-
-```python
-import tensorflow as tf
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Flatten, LSTM, Dropout, Activation, Embedding, Bidirectional, SpatialDropout1D
-from sklearn.model_selection import train_test_split
-from tensorflow.compat.v1.keras.layers import CuDNNLSTM
-```
-
-
-```python
-print(tf.__version__)
-```
-
-    2.6.0
-    
-
-
-```python
-# set hyperparameter
-vocab_size = 7000 # make the top list of words (common words)
-embedding_dim = 32
-max_length = 354
-oov_tok = '<OOV>' # OOV = Out of Vocabulary
-```
-
-
 ```python
 # splitting dataset
 X = data['clean_text']
@@ -703,6 +674,7 @@ validation_sequences = tokenizer.texts_to_sequences(X_test)
 validation_padded = pad_sequences(validation_sequences, maxlen=max_length)
 ```
 
+## Modeling with Long Short Term Memory
 
 ```python
 from tensorflow.keras.utils import to_categorical
