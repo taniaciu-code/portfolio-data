@@ -403,7 +403,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![png](/images/output_9_0.png)
 
 
 
