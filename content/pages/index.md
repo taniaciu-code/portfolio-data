@@ -5,9 +5,10 @@ sections:
   - section_id: hero
     type: section_hero
     title: 'Hello, I''m Tania Ciu.'
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+    content: >
+      A third-year information system student who have a passion in big data 
+      and data analytics fields with a good problem solving and communication
+      skills.
     actions:
       - label: Let's talk
         url: /contact
