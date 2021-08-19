@@ -47,7 +47,7 @@ stock price data. It is hoped that this research can provide insight about the f
 <div align="justify">
 In the web scrapping process, the data extraction process from the social media "Twitter" will be carried out using the Twitter API and the Tweepy library. The web scrapping process is carried out using the keyword "BNI". The results of the web scrapping process are csv data with a total of 1000 rows extracted from November 21, 2020 to November 30, 2020. The data obtained consists of 7 variables represented in the form of numbers 0 to 6.
 </div>
-
+<br>
 Authentication
 
 
