@@ -539,6 +539,7 @@ plot_confusion_matrix(conf_matrix_nb)
 
 
 ## Comparation of Support Vector Machine and Naive Bayes Algorithm Model
+
 <div align="justify">
 Based on the modeling results, it is found that the SMS spam data modeling using the Support Vector Machine algorithm is more accurate than using the Naïve Bayes algorithm where the accuracy of the Support Vector Machine modeling is 97% while the accuracy of the Naïve Bayes modeling is 87%. To compare the two algorithms specifically, further data validation was carried out using additional parameters in the form of precision, recall, and f-measure parameters.
 </div>
