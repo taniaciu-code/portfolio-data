@@ -951,7 +951,7 @@ plt.show()
     
 
 
-![png](output_43_1.png)
+![png](/images/output_43_1.png)
 
 
 
