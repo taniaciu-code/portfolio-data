@@ -1114,3 +1114,10 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
 ![png](/images/output_bar.png)
 
 
+<div align="justify">
+Based on the values ​​in the image above, it is found that the construction of the model with the decision tree gives prediction results with the highest level of accuracy, which is 89.45%. Meanwhile, the modeling with the second highest level of accuracy is the construction of a model with a support vector machine algorithm that is able to achieve an accuracy value of 88.82% and is followed by the k-nearest neighbors algorithm which produces a predictive model with an accuracy rate of 87.95%. Judging from the precision value from the evaluation results, it was found that the support vector machine algorithm was able to achieve the highest precision value, namely the value of 61.27%. On the other hand, the decision tree algorithm is able to achieve a precision value of 58.80% and the k-nearest neighbors algorithm is able to achieve a precision value of 47.88%.
+<br>
+Judging from the recall criteria, the predictive model built with the k-nearest neighbors algorithm produces the highest recall value compared to the other two algorithms, which is 33.58%. Meanwhile, the predictive model built with the decision tree algorithm produced the second highest recall value at 32.83% and the predictive model built with the support vector machine algorithm produced the lowest recall value at 12.16%.
+<br>
+It is different when viewed from the f1-score value where the predictive model built with the decision tree is able to produce the highest f1-score value at 42.13%, while the predictive model built with the k-nearest neighbors algorithm is able to produce the second highest f1-score value, namely at a value of 39.48% and the predictive model built with the support vector machine algorithm is able to produce the lowest f1-score value compared to the other two algorithms, which is at a value of 20.29%.
+</div>
