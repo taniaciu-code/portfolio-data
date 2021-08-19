@@ -1186,7 +1186,7 @@ plt.show()
     
 
 
-![png](output_51_1.png)
+![png](/images/output_51_1.png)
 
 
 # Predict with Long Short Term Memory
