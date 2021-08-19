@@ -70,7 +70,7 @@ View(heart)
 Data<-heart
 
 ```
-![png](/images/)
+![png](/images/data1.JPG)
 
 
 ## Variable as factor
