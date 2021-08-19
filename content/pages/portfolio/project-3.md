@@ -35,6 +35,8 @@ seo:
 layout: project
 ---
 
+<div align="justify">
+
 ## Retrieve Data
 
 
