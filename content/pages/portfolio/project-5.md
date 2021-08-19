@@ -1036,7 +1036,7 @@ plot_confusion_matrix(conf_matrix)
     
 
 
-![png](output_48_1.png)
+![png](/images/output_48_1.png)
 
 
 Count Sentiment Positive and Negative Per Day
