@@ -35,6 +35,3 @@ seo:
 layout: project
 ---
 
-
-
-
