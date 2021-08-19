@@ -304,6 +304,7 @@ len(data)
 <div align="justify">
 The next process is the data cleansing process. There are several types of data cleansing processes carried out on this data, such as removing punctuation marks, hyperlinks, emoji, and stopwords (words that have no special meaning/no meaning) as well as changing abbreviated words into their original words.
 </div>
+<br>
 
 ```python
 def remove_punctuation(text):
