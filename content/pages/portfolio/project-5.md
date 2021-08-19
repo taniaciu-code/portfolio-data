@@ -793,7 +793,7 @@ tokenized_tweet.head()
 
 
 
-**Visualization**
+## Visualization
 
 Fetch Sentiments using Sentiment Analyzer TextBlob
 
