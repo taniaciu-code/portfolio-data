@@ -268,7 +268,6 @@ print(df_minority['rating'].value_counts())
 
 
 ```python
-# harusnya pake looping
 from sklearn.utils import resample
 df1 = resample(df_1, replace=False, n_samples=12705, random_state=42)
 df3 = resample(df_3, replace=False, n_samples=12705, random_state=42)
