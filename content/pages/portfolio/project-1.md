@@ -2,7 +2,7 @@
 title: >-
   Implementation of Decision Tree, K-Nearest Neighbors, and Support Vector
   Machine Algorithm to Predict Potential Client in Banking Sector
-subtitle: Optional Project Subtitle
+subtitle: Jan 2021 - Jun 2021
 date: '2019-05-10'
 thumb_image: /images/client.jpg
 thumb_image_alt: 'White, black, and red shoe sole'
