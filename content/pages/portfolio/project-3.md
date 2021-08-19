@@ -449,8 +449,9 @@ features = vectorizer.fit_transform(textFeatures)
     
 
 ## Data Splitting
-
-## Data Splitting
+<div align="justify">
+Data that has undergone data pre-processing in the previous process will be mapped into a numerical value where the "Ham" data will be assigned a value of 0 and the "Spam" data will be assigned a value of 1.
+</div>
 
 ```python
 # Map dataframe to encode values and put values into a numpy array
