@@ -79,7 +79,7 @@ describe(Data1)
 str(Data1)
 ```
 ![png](/images/data2.png)
-![png](/images/output_36_0.png)
+
 ## Plot histogram
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
