@@ -144,7 +144,7 @@ conf
 
 ```
 
-Validation data with k-fold cross validation
+## Validation data with k-fold cross validation
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(boot)
