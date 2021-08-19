@@ -975,7 +975,7 @@ generate_wordcloud(all_words21)
 ![png](/images/output_37_0.png)
 
 
-## Feature Extraction Using CountVectorizer
+Feature Extraction Using CountVectorizer
 
 
 ```python
