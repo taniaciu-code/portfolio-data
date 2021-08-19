@@ -41,6 +41,10 @@ The high internal competition and the financial crisis in Portuguese bank instit
 
 ## Data Understanding
 
+<div align="justify">
+In this study, data from portuguese bank institutions will be used which consists of 45,211 data lines and 17 variables as follows.
+</div>
+
 ### Import Dataset
 
 ```python
