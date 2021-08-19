@@ -34,9 +34,12 @@ seo:
       relativeUrl: true
 layout: project
 ---
+The number of cardiovascular disease sufferes is also increasing yearly. This disease occurs due to several factors, such as age, blood pressure, cholesterol levels, diabetes, hypertension, genes, obesity, and unhealthy lifestyles. Various symptoms can be identified through physical signs such as chest pain, shortness of breath, dizziness, and easy feeling of fatigue.
 
+Cardiovascular disease identification techniques are complicated to do. It is essential to know the the complication of cardiovascular disease can give a impact on one's life as a whole. The diagnosis and treatment of cardiovascular disease are very complex. While still using invasive-based techniques through analysis of the patients medical history, report of physical examinations performed by the medical tend to be less accurate and require a relatively long time. For this reason, a support system is implemented to predict cardiovascular disease through a machine learning model.
 
 Mengimport library
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 install.packages("DataExplorer")
 library(DataExplorer)
@@ -49,6 +52,7 @@ library(caret)
 ```
 
 Retrieve Data
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(readr)
 heart <- read_csv("C:/Users/Tania Ciu/Downloads/DataAnalysis/heart.csv")
@@ -57,6 +61,7 @@ Data<-heart
 ```
 
 Variable as factor
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 Data1 <- copy(Data)
 Data1$sex <- as.factor(Data1$sex)
@@ -72,6 +77,7 @@ str(Data1)
 ```
 
 Plot histogram
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(ggplot2)
 plot_histogram(Data,
@@ -81,6 +87,7 @@ plot_histogram(Data,
 ```
 
 Plot Correlation
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 install.packages("GGally")
 library(GGally)
@@ -92,6 +99,7 @@ ggcorr(Data, nbreaks=8,
 ```
 
 Split data
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 set.seed(293)
 trainIndex<-createDataPartition(y=Data1$target
@@ -106,6 +114,7 @@ describe(test_data)
 ```
 
 Modeling Logistic Regression
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 LogisticMod <- glm(target ~ age+sex+trestbps+chol+fbs+restecg+thalach+exang+oldpeak+slope+ca+thal, data=train_data, family="binomial"(link="logit"))
 LogisticPred <- predict(LogisticMod, test_data, 
@@ -123,8 +132,8 @@ summary(LogisticPrediction)
 
 ```
 
-
 Validation data with Confusion Matrix
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(tools)
 conf<-confusionMatrix(table(LogisticPred, 
@@ -134,6 +143,7 @@ conf
 ```
 
 Validation data with k-fold cross validation
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(boot)
 set.seed(293)
