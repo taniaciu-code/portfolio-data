@@ -1,6 +1,6 @@
 ---
 title: Support Vector Machine & Naive Bayes Based Spam SMS Detection
-subtitle: Optional Project Subtitle
+subtitle: Aug 2020 - Dec 2020
 date: '2019-04-08'
 thumb_image: /images/sms.jpg
 thumb_image_alt: A yellow retro telephone on a yellow background
