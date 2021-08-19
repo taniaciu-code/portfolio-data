@@ -1029,7 +1029,7 @@ metrics(y_test, predict_DT)
     
 
 
-![png](output_38_1.png)
+![png](/images/output_38_1.png)
 
 
 ### Evaluation of K-Nearest Neighbor Model
