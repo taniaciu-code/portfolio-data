@@ -1178,6 +1178,9 @@ plt.show()
 
 ![png](/images/output_511.png)
 
+<div align="justify">
+At this stage, a re-assessment (review) of the performance of the classification model that has been successfully built using several metrics is carried out. Based on the evaluation results, the Long-Short Term Memory algorithm was ranked first with an accuracy rate of 51% on data testing, followed by the Support Vector Machine algorithm in second place with an accuracy rate of 49% on data testing, then the Naive Bayes algorithm in third place with 47% accuracy rate on data testing and Random Forest algorithm which ranks last with an accuracy rate of 42% on testing data.
+</div>
 
 ## Predict with Long Short Term Memory
 
