@@ -385,6 +385,10 @@ data.hist(column='length', by='label', bins=50,figsize=(11,5), color = "darkturq
 
 ![png](/images/output\_5\_1.png)
 
+<div align="justify">
+Based on the graph above, it is found that the amount of spam SMS data is more than the number of “Ham” data. The words that are often used in the data identified as SMS "Ham" data.
+</div>
+
 ```python
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt 
