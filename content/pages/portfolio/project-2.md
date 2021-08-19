@@ -50,10 +50,6 @@ rating and review given. In this project, we will build a multiclass text classi
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-```
-
-
-```python
 df = pd.read_csv('train.csv')
 df.head()
 ```
