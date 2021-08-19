@@ -1,5 +1,7 @@
 ---
-title: Multiclass Text Classification using Long Short Term Memory
+title: >-
+  Multiclass Text Classification using Long Short Term Memory: Product Review &
+  Rating Prediction
 subtitle: Optional Project Subtitle
 date: '2019-04-30'
 thumb_image: images/2_thumb.jpg
