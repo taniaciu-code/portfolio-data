@@ -959,7 +959,7 @@ generate_wordcloud(all_words21)
 ![png](/images/output_37_0.png)
 
 
-**Feature Extraction Using CountVectorizer**
+## Feature Extraction Using CountVectorizer
 
 
 ```python
@@ -974,7 +974,7 @@ count_word_vectorizer = CountVectorizer(max_df=0.90, min_df=2, stop_words='engli
 count_word_feature = count_word_vectorizer.fit_transform(data21['tweets'])
 ```
 
-**Model Building: Sentiment Analysis**
+## Model Building: Sentiment Analysis
 
 
 ```python
