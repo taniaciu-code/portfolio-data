@@ -93,6 +93,12 @@ str(Data1)
 
 
 ## Plot histogram
+<div align="justify">
+The dataset obtained by the researcher as a basis for analysis is imported into RStudio. The output of this process can be seen on Fig. 2 and Fig. 3. The data 
+retrieval process is also performed in the data 
+visualization to see the value of each variable involved 
+in the overall research analysis
+</div>
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(ggplot2)
