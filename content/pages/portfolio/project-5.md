@@ -2249,3 +2249,6 @@ plt.title('Plot Close dengan Negative Sentiment')
 
 ![png](/images/output_731.png)
 
+<div align="justify">
+Based on the results of linear regression modeling between the "Close" data variable and Twitter's positive and negative sentiment data, the resulting p-value shows that there is no relationship between stock "Close" data and Twitter's positive and negative sentiment data. This is also supported by the plotting results where there is no special pattern or linear pattern found in the plot.
+</div>
