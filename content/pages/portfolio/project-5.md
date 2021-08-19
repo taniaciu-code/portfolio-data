@@ -1029,14 +1029,14 @@ def plot_confusion_matrix(matrix):
     plt.show()
 ```
 
-## Split to Training Data and Testing Data
+### Split to Training Data and Testing Data
 
 
 ```python
 X_train, X_test, y_train, y_test = train_test_split(count_word_feature, target_variable, test_size=0.3, random_state=272)
 ```
 
-## Support Vector Machine Model
+### Support Vector Machine Model
 
 
 ```python
