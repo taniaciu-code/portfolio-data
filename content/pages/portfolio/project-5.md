@@ -4,7 +4,7 @@ subtitle: Aug 2020 - Dec 2020
 date: '2019-01-05'
 thumb_image: /images/stock.jpg
 thumb_image_alt: A white gamepad on a green background
-image: images/5.jpg
+image: /images/stock-33925a77.jpg
 image_alt: A white gamepad on a green background
 seo:
   title: Project Title 5
