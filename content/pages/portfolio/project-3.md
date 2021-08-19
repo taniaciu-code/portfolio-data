@@ -512,6 +512,7 @@ plot_confusion_matrix(conf_matrix_nb)
 
     Accuracy Score = 0.8738038277511961
 
+
 ![png](/images/output_191.png)
 
 
