@@ -177,7 +177,7 @@ plt.show()
 ```
 
 
-![png](/images/output_7_0.png)
+![png](/images/output_70.png)
 
 
 ## Data Cleansing & Text Preprocessing
