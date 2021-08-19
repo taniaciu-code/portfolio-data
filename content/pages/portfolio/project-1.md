@@ -975,7 +975,7 @@ metrics(y_test, predict_KNN)
        macro avg       0.70      0.64      0.66     13564
     weighted avg       0.86      0.88      0.87     13564
 
-![](/images/output\_40\_1.png)
+![png](/images/output\_40\_1.png)
 
 ### Evaluation of Support Vector Machine Model
 
