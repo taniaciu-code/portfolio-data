@@ -61,6 +61,13 @@ At the top right of the dashboard, you can see a bar chart showing the number of
 
 ![png](/images/Das3.png)
 
+<div align="justify">
+In the dashboard above, it can be seen that there is a control diagram that represents the development of the average temperature in Indonesia and a Pareto chart that represents the duration of flooding by province in Indonesia. Control diagram of the average temperature is used to monitor the development of the average temperature over time under controlled conditions. Based on the control diagram, it is found that the upper control limit of the average temperature in Indonesia is 27.3475oC, while the lower control limit of the average temperature in Indonesia is 26.9496oC. The results of the control diagram show that from 1985 to 2020 it was found that in 1987, 1998, and 2016 Indonesia had an average temperature that exceeded the upper control limit with the highest average temperature of 27.5309oC in 1987.
+<br>
+In addition, the results of the control diagram also show that from 1985 to 2020 it was found that in 1991, 1999, 2008, and 2011 Indonesia had an average temperature below the lower control limit with the lowest average temperature of 24,158oC in 2001. Thus, it can also be obtained that from 1985 to 2020 Indonesia had a fairly controlled average temperature. This can be seen from the control diagram which shows that most of Indonesia's average temperature is in the upper control limit and lower control limit ranges.
+<br>
+The Pareto chart in this study is used to see the frequency of floods by province. Pareto chart is basically a dual combination chart which consists of a bar chart which represents the quantity of a categorical variable and a line chart which represents the cumulative total of the quantity of categorical variables. In this study, the bar chart in the Pareto chart represents the number or frequency of floods from categorical variables in the form of the name of the province, while the line chart represents the cumulative total of the number or frequency of floods based on the name of the province.
+</div>
 ## Prediction Visualization
 
 ### Dashboard | Region and Flood Duration Clustering in Indonesia
