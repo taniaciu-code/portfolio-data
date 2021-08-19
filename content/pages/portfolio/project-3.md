@@ -42,6 +42,9 @@ processed will be divided into training data for data modeling with Support Vect
 
 ## Retrieve Data
 
+<div align="justify">
+In the data retrieving process, the SMS spam data obtained from the UCI dataset repository in http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection will be imported into Jupyter Notebook. The data consists of 5 variables with 5572 rows of data as the basis for analysis. The variables contained in the data consist of the variables “v1”, “v2”, “Unamed: 2”, “Unamed:3”, “Unamed:4”. The data used as the basis for the analysis is imported into Jupyter Notebook using the pandas library. The data import process also involves encoding parameters to be able to convert the data obtained into latin-1 format because the data is obtained in UTF-8 format so it is difficult to process.
+</div>
 
 ```python
 import pandas as pd
