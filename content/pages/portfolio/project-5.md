@@ -2160,7 +2160,7 @@ print('Pearsons correlation Close ~ Negative: %.3f' % corr1)
     Pearsons correlation Close ~ Negative: -0.420
     
 
-## Plot Sentimen dan Saham
+## Plotting
 
 
 ```python
