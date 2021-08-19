@@ -175,7 +175,9 @@ data
 
 
 ## Data Pre-Processing
-
+<div align="justify">
+In this process, the imported data will be prepared before it can be used in the next process. Variables from imported data will be labeled “label” and “text”. Then, from the 5 data variables obtained, only the first 2 variables will be used because the other three variables do not provide any information.
+</div>
 
 ```python
 data = data.drop(["Unnamed: 2", "Unnamed: 3", "Unnamed: 4"], axis=1)
