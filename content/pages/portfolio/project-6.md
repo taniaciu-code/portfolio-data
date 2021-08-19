@@ -148,7 +148,7 @@ test_data
 describe(test_data)
 
 ```
-![png](/images/has.JPG)
+![png](/images/hasil1.JPG)
 
 ## Modeling Logistic Regression
 
