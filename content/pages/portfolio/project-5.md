@@ -806,7 +806,7 @@ tokenized_tweet.head()
 
 
 
-## Visualization
+## Sentiment Analysis
 <div align="justify">
 In the sentiment analysis process, tokenized data will be used as objects for this process. Sentiment analysis classifies all data into “Positive” sentiments and “Negative” sentiments using the TextBlob library. To see the words that are often used in the two sentiments, visualization can be done using wordcloud.
 </div>
