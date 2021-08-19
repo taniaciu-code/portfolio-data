@@ -115,7 +115,7 @@ describe(test_data)
 
 ```
 
-Modeling Logistic Regression
+## Modeling Logistic Regression
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 LogisticMod <- glm(target ~ age+sex+trestbps+chol+fbs+restecg+thalach+exang+oldpeak+slope+ca+thal, data=train_data, family="binomial"(link="logit"))
