@@ -40,8 +40,6 @@ The number of cardiovascular disease sufferes is also increasing yearly. This di
 Cardiovascular disease identification techniques are complicated to do. It is essential to know the the complication of cardiovascular disease can give a impact on one's life as a whole. The diagnosis and treatment of cardiovascular disease are very complex. While still using invasive-based techniques through analysis of the patients medical history, report of physical examinations performed by the medical tend to be less accurate and require a relatively long time. For this reason, a support system is implemented to predict cardiovascular disease through a machine learning model.
 </div>
 
-</div>
-
 ## Mengimport library
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
