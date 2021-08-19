@@ -80,6 +80,7 @@ describe(Data1)
 str(Data1)
 
 ```
+![png](/images/data2.png)
 
 ## Plot histogram
 
