@@ -58,7 +58,8 @@ At the top right of the dashboard, you can see a bar chart showing the number of
 </div>
 
 ### Dashboard | Flood Frequency and Average Temperature
-&#xA;![](/images/Das3.png)
+
+![png](/images/Das3.png)
 
 ## Prediction Visualization
 
