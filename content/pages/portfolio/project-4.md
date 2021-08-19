@@ -69,13 +69,13 @@ At the top right of the dashboard, you can see a bar chart showing the number of
 
 ### Dashboard | Comparison of 5 Types of Trend Lines between Average Temperature and Rainfall Rates
 
-![](/images/Das5-1f9e4bef.png)
+![png](/images/Das5-1f9e4bef.png)
 
 ### Dashboard | Monthly Forecasting of Average Temperature in Indonesia
 
-![](/images/Das6.png)
+![png](/images/Das6.png)
 
 ### Dashboard | Quarterly Forecasting of Average Temperature, Rainfall, and Number of Floods in Indonesia
 
-![](/images/Das7.png)
+![png](/images/Das7.png)
 
