@@ -54,7 +54,7 @@ import matplotlib.pyplot as plt
 
 
 ```python
-df = pd.read_csv('/gdrive/My Drive/MD_Files/train.csv')
+df = pd.read_csv('train.csv')
 df.head()
 ```
 
