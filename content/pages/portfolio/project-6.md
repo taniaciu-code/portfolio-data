@@ -164,6 +164,7 @@ conf<-confusionMatrix(table(LogisticPred,
 conf
 
 ```
+![png](/images/hasil3.JPG)
 
 ## Validation data with k-fold cross validation
 
