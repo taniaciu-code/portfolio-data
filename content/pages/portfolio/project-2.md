@@ -166,7 +166,7 @@ df['rating'].value_counts()
 The training data has an uneven rating distribution so that it can be judged to have an imbalanced class. Exploration results show that there are 14,785 data with a rating of 1, 12,705 data with a rating of 2, 35,941 with a rating of 3, 41,865 with a rating of 4, and 41,515 with a rating of 5. The visualization of the distribution of "rating" data by class is as follows.
 </div>
 
-
+<br>
 ```python
 plt.hist(df['rating'],density=1, bins=20)
 plt.show()
