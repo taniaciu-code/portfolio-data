@@ -224,7 +224,7 @@ the k-fold cross-validation data method, it was found that the prediction data u
 concluded that the logistic regression model is an appropriate and effective model for this research.
 </div>
 
-## Conclusions
+## Conclusion
 <div align="justify">
 By using the Heart Disease UCI dataset consisting of fourteen variables, including age, sex, cp, fbs, restecg, thalac, exang, oldpeak, slope, ca, thal, and target, it was found that the use of the logistic regression algorithm is effective and efficient in predicting cardiovascular disease where based on the results of data validation it is found that the accuracy 
 of the prediction results with the algorithm reaches 85% with an error rate that tends to be small at 0.1406565. It proves that this algorithm is suitable for use as a prediction algorithm in this study.
