@@ -183,3 +183,4 @@ cv.err.10 <- cv.glm(data = Data,
 cv.err.10$delta
 
 ```
+![png](/images/hasil2.JPG)
