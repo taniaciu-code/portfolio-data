@@ -167,6 +167,7 @@ The training data has an uneven rating distribution so that it can be judged to 
 </div>
 
 <br>
+
 ```python
 plt.hist(df['rating'],density=1, bins=20)
 plt.show()
