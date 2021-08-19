@@ -53,7 +53,7 @@ library(psych)
 library(caret)
 ```
 
-Retrieve Data
+## Retrieve Data
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(readr)
