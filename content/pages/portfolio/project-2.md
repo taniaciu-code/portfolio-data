@@ -1248,7 +1248,7 @@ print(np.argmax(pred))
 
     3
     
-## Conclusions
+## Conclusion
 <div align="justify">
 The analysis is carried out by comparing the level of accuracy obtained from the model development with the Long Short-Term Memory (LSTM) algorithm, Support Vector Machine (SVM), Naive Bayes, and Random Forest. The results of the analysis show that the model development using the LSTM algorithm produces the highest level of accuracy compared to the SVM, Naive Bayes, and Random Forest algorithms. The final result obtained from the classification of testing data using the LSTM algorithm is 51%, while the classification of testing data using the SVM algorithm is 49%, Naive Bayes is 47%, and Random Forest is 42%. LSTM is able to provide the highest level of accuracy because LSTM uses memory cells as special units that can accommodate information for the long term.
 </div>
