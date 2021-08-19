@@ -996,7 +996,7 @@ plt.show()
     
 
 
-![png](output_44_1.png)
+![png](/images/output_44_1.png)
 
 
 # Modeling with Multinomial Naive Bayes
