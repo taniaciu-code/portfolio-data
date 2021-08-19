@@ -43,6 +43,9 @@ The impact of flooding which is quite extensive on the community makes flooding 
 ### Dashboard | Average Temperature with 3 LOD Type
 
 ![](/images/Das1.png)
+<div align="justify">
+The above dashboard comes with a bar chart showing the differences between the three LOD expressions. Exclude is orange, Fixed is red, and Include is blue. The purpose of the bar chart is to make it easier to compare the three different LOD values. The Text Table on the dashboard above is also used as a filter, where when a row in the text table is clicked, the bar chart will change according to the row that was clicked.
+</div>
 
 ### Dashboard | Flood in Indonesia
 
