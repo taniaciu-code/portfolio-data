@@ -931,6 +931,9 @@ metrics(y_test, predict_DT)
         accuracy                           0.89     13564
        macro avg       0.75      0.65      0.68     13564
     weighted avg       0.88      0.89      0.88     13564
+    
+    
+![png test](/images/output_38_1.png)
 
 ![](/images/output\_38\_1.png)
 
