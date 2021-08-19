@@ -478,6 +478,7 @@ def plot_confusion_matrix(matrix):
 
 ### Modeling with Support Vector Machine Algorithm
 
+
 ```python
 from sklearn import svm
 
