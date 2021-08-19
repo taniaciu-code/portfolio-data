@@ -470,6 +470,9 @@ X_train, X_test, y_train, y_test = train_test_split(features, encoded_labels,
 
 ## Data Modeling and Data Validation
 
+<div align="justify">
+Training data is used for data modeling using the Support Vector Machine (SVM) and Naive Bayes algorithm.
+</div>
 
 ```python
 import numpy as np 
