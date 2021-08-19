@@ -938,7 +938,6 @@ metrics(y_test, predict_DT)
     weighted avg       0.88      0.89      0.88     13564
     
     
-![png](/images/output_38_1.png)
 
 
 ### Evaluation of K-Nearest Neighbor Model
