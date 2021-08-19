@@ -87,7 +87,7 @@ plot_histogram(Data,
                title="Variables in Data")
 
 ```
-
+![png]
 ## Plot Correlation
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
