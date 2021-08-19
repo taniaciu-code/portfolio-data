@@ -168,7 +168,7 @@ LogisticPrediction
 summary(LogisticPrediction)
 
 ```
-![png](/images/hasil2.JPG)
+![png](/images/hasil_model.JPG)
 
 <div align="justify">
 The training data is used to build a logistic regression model using the glm () function because logistic regression is 
