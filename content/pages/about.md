@@ -41,11 +41,8 @@ Aug 2018 - Present Bachelor's Degree Majoring in Information System CGPA: 3.9 / 
 ## Certification
 
 **Certified International Specialist in Data Visualization (Founding Stage)**
-
 Feb 2021 - Sept 2024
-
 Published by: PASAS Institute, Singapore
-
 Credential ID: CISDV 04745
 
 ## Personal Contact
