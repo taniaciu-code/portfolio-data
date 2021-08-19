@@ -213,3 +213,12 @@ cv.err.10 <- cv.glm(data = Data,
 cv.err.10$delta
 
 ```
+
+```
+>cv
+```
+<div align="justify">
+The method used to validate the logistic regression model used in this study is the k-fold cross-validation method with k-fold value of 10. Following is the syntax of the k-fold cross-validation method. Based on 
+the k-fold cross-validation data method, it was found that the prediction data using the logistic regression method had an error rate that tended to be lower at 0.1406565. It proves that referring to the two validation methods that have been done, and it can be 
+concluded that the logistic regression model is an appropriate and effective model for this research.
+</div>
