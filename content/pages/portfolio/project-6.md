@@ -61,7 +61,7 @@ heart <- read_csv("C:/Users/Tania Ciu/Downloads/DataAnalysis/heart.csv")
 View(heart)
 Data<-heart
 ```
-
+![png](/images/da.png)
 
 ## Variable as factor
 
