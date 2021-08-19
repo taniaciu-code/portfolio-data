@@ -38,7 +38,7 @@ sections:
         content: >
           Creation of static and interactive data visualization and dashboards
           make your data easier to be understood.
-      - title: Service Title
+      - title: Data Analytics
         content: >-
           Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
           convallis, interdum ligula vel, pretium diam. Integer commodo sem at
