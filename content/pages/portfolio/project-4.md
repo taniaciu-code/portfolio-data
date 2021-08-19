@@ -93,6 +93,10 @@ Of the 5 trend lines on the dashboard, the polynomial trend line has the highest
 
 ![png](/images/Das6.png)
 
+<div align="justify">
+The dashboard above consists of a map that displays the location of weather stations in Indonesia, and a line graph that displays the average temperature in Indonesia per month along with its forecast. The forecast results show that there are 3 "peaks" in November 2020, May 2021, and November 2021. Meanwhile, there are 2 "valleys" in February 2021 and July 2021. This pattern is in accordance with the average temperature data in the previous months. From the trend line, it can be seen that in the long term the average temperature in Indonesia has increased from year to year.
+</div>
+
 ### Dashboard | Quarterly Forecasting of Average Temperature, Rainfall, and Number of Floods in Indonesia
 
 ![png](/images/Das7.png)
