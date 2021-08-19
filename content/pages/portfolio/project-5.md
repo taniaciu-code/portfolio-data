@@ -329,7 +329,9 @@ data21
 
 
 ## Text Pre-Processing
-
+<div align="justify">
+The data obtained from the web scrapping process will be re-sorted to find data related to the Indonesian National Bank (BNI). After the cleansing process, 361 rows of data will be obtained from 1000 data obtained from the web scrapping process. Next, a variable labeling process will be carried out where the variables previously represented in numbers 0 to 6 will be converted into a number of variables with the labels “Time”, “Tweets_id”, “Tweets”, “Retweets”, “Count_likes”, “Source”, and "Source_url". In the data pre-processing process, punctuation marks, url links, special characters such as symbols, emoticons, and stopwords will be removed.
+</div>
 
 ```python
 data21 = pd.DataFrame(data21,columns=['time','tweets'])
