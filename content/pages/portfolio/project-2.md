@@ -1248,3 +1248,7 @@ print(np.argmax(pred))
 
     3
     
+## Conclusions
+<div align="justify">
+
+</div>
