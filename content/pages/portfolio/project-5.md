@@ -2144,8 +2144,6 @@ end_result1
 
 ## Correlation Test Close ~ Sentiment
 
-
-
 ```python
 x = end_result1['Close']
 y = end_result1['positive']
@@ -2167,6 +2165,9 @@ print('Pearsons correlation Close ~ Negative: %.3f' % corr1)
     Pearsons correlation Close ~ Positive: -0.104
     Pearsons correlation Close ~ Negative: -0.420
     
+<div align="justify">
+To determine the effect of "Twitter" sentiment data on BNI stock data, a Pearson correlation test was carried out and the results showed that neither positive sentiment nor negative sentiment had an effect on BNI's "Close" price movement.
+</div>
 
 ## Plotting
 
