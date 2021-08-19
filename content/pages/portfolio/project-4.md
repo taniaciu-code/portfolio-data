@@ -101,3 +101,6 @@ The dashboard above consists of a map that displays the location of weather stat
 
 ![png](/images/Das7.png)
 
+<div align="justify">
+On the dashboard above, you can see a bar chart and 2 line graphs along with their respective forecasts. The bar chart at the top shows the number of floods in Indonesia per quarter, while the two line charts below represent the average rainfall and temperature levels in Indonesia per quarter. When the average temperature forecast increases, the rainfall rate also increases. On the other hand, when the average temperature forecast decreases, the level of rainfall also tends to decrease. This is consistent with the fact that when the average temperature on the earth's surface increases, it will result in more evaporation, which in turn will increase overall rainfall.
+</div>
