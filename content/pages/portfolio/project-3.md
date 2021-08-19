@@ -610,3 +610,11 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
 
 ![png](/images/output_compare.png)
 
+<div align="justify">
+By using SMS spam data and modeling using the Support Vector Machine and Naïve Bayes algorithms, it is found that the implementation of the Support Vector Machine algorithm is better than the implementation of the Naïve Bayes algorithm. This is based on the accuracy results where the accuracy of modeling with the Support Vector Machine is 97%, while the modeling with Naïve Bayes only produces an accuracy of 87%.
+The data validation process in this study is not only limited to accuracy, but can also use a number of additional parameters. The first parameter used is the precision parameter. Based on these parameters, it is found that modeling with Support Vector Machine produces a precision value of 97% and modeling with Naïve Bayes produces a precision value of 54%. Thus, it can be said that modeling using the Support Vector Machine is more precise than modeling using Naïve Bayes.
+<br>
+The recall parameter is also used as a parameter to measure the suitability of the algorithm. Based on the recall parameter, the use of the Support Vector Machine algorithm produces a smaller recall value of 82% compared to the use of the Naïve Bayes algorithm which is able to produce a recall value of 88%.
+<br>
+In addition, in order to determine a more suitable algorithm for SMS spam data, the f-measure parameter can be used. If viewed from the f-measure value, it is found that the modeling using the Support Vector Machine algorithm has a higher f-measure than the modeling using the Naïve Bayes algorithm where the Support Vector Machine f-measure modeling is 89%, while the Naïve Bayes modeling has f-measure. -measure of 66%. Thus, it is found that the Support Vector Machine algorithm is more suitable for use on SMS spam data than the Naïve Bayes algorithm.
+</div>
