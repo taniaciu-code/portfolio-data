@@ -35,7 +35,6 @@ Hello, my name is Tania Ciu. I have a passion in data science, data analytics, a
 ## Education
 
 **Universitas Multimedia Nusantara**
-
 Aug 2018 - Present
 Bachelor's Degree 
 Majoring in Information System CGPA: 3.9 / 4.0
