@@ -608,6 +608,10 @@ data.head()
 
 ## Modeling
 
+<div align="justify">
+In this research, the model will be built using decision tree algorithm, k-nearest neighbors, and support vector machine. For the purposes of model development, data splitting will be carried out with a proportion of 70% for training data and 30% for data testing.
+</div>
+
 ### Data Splitting
 
 ```python
