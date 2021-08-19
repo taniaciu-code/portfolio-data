@@ -6,7 +6,7 @@ subtitle: Jan 2021 - Jun 2021
 date: '2019-04-30'
 thumb_image: /images/productreview1.jpg
 thumb_image_alt: An orange on a blue background
-image: images/2.jpg
+image: /images/productreview1-49285502.jpg
 image_alt: An orange on a blue background
 seo:
   title: Project Title 2
