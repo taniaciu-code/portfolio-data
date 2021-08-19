@@ -450,6 +450,10 @@ ax.set_ylabel('Count', fontsize = 15)
 
 ## Data Preparation
 
+<div align="justify">
+After importing the data, the categorical data will be encoded using a LabelEncoder to encode string labels into integers so that these variables can be used in the algorithmic modeling process.
+</div>
+
 ### Label Encoding
 
 ```python
