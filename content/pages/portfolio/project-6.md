@@ -78,7 +78,7 @@ describe(Data1)
 str(Data1)
 ```
 
-Plot histogram
+## Plot histogram
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(ggplot2)
