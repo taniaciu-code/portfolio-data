@@ -475,7 +475,8 @@ def plot_confusion_matrix(matrix):
     plt.show()
 ```
 
-### *Modeling with Support Vector Machine Algorithm*
+### Modeling with Support Vector Machine Algorithm
+
 
 ```python
 from sklearn import svm
