@@ -908,6 +908,10 @@ df_SVM.tail()
 
 ## Evaluation
 
+<div align="justify">
+The evaluation model used in this study is an evaluation model using a number of criteria resulting from the confusion matrix. The confusion matrix was chosen as the method in the evaluation model because it is a popular method used to validate a number of learning models.
+</div>
+
 ### Evaluation Model Function
 
 ```python
