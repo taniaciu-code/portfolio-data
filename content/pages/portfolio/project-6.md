@@ -121,6 +121,26 @@ ggcorr(Data, nbreaks=8,
 ```
 ![png](/images/data4.JPG)
 
+<div align="justify">
+In this process, the correlation between variables 
+will be examined, which will be used as a basis for 
+analysis to predict cardiovascular disease. Based on 
+the matrix in Fig. 4, it was found that the variables 
+induced angia (exang), chest pain type (cp), ST 
+depression induced by exercise relative to rest 
+(oldpeak), maximal heart rate (thalac) had a strong 
+correlation with the target variable. Meanwhile, blood 
+sugar (fbs) and cholesterol (chol) levels do not 
+correlate with the target variable. Meanwhile, among 
+the independent variables, there is a strong correlation 
+between the slope and oldpeak variables. Besides, 
+thalac, exhang, oldpeak, and slope variables are also 
+strongly correlated. Strong correlation also applies to 
+variables Exang, cp, and thalac. It proves that there is 
+no multicollinearity in the relationship between 
+variables where each independent variable does not 
+correlate with each other.
+</div>
 
 ## Split data
 
