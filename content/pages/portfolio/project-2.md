@@ -37,6 +37,10 @@ seo:
 layout: project
 ---
 
+<div align="justify>
+
+</div>
+
 ## Data Preparation
 
 
