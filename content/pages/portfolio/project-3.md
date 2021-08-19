@@ -454,7 +454,7 @@ X_train, X_test, y_train, y_test = train_test_split(features, encoded_labels,
                                                     test_size=0.3, random_state=272)
 ```
 
-### Data Modeling and Data Validation
+## Data Modeling and Data Validation
 
 
 ```python
