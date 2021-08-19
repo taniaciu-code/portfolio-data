@@ -1,6 +1,6 @@
 ---
 title: The Effect of Average Temperature & Rainfall on Flood in Indonesia
-subtitle: Optional Project Subtitle
+subtitle: Aug 2020 - Dec 2020
 date: '2019-02-26'
 thumb_image: /images/flood.jpg
 thumb_image_alt: A table tennis racket on a pink background
