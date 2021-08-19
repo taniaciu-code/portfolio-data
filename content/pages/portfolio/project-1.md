@@ -1055,7 +1055,7 @@ metrics(y_test, predict_KNN)
     
 
 
-![png](output_40_1.png)
+![png](/images/output_40_1.png)
 
 
 ### Evaluation of Support Vector Machine Model
