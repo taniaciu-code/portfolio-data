@@ -42,7 +42,7 @@ sections:
         content: >
           Get more value from your data with prediction models and machine
           learning techniques.
-      - title: Service title
+      - title: Data Management
         content: >
           Data harvesting, cleaning and reshaping to make your further analyses
           easier.
