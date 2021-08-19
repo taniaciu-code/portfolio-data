@@ -1088,7 +1088,7 @@ plt.show()
 ![png](/images/output_47_1.png)
 
 
-# Modeling with Support Vector Machine
+## Modeling with Support Vector Machine
 
 
 ```python
