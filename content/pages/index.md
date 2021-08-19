@@ -34,7 +34,7 @@ sections:
         content: >
           I'm specialized in analyzing data. Result, trends and recommendations
           are clearly presented in reports or tools.
-      - title: Service Title
+      - title: Data Visualization
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
