@@ -540,7 +540,6 @@ plot_confusion_matrix(conf_matrix_nb)
 
 ## Comparation of Support Vector Machine and Naive Bayes Algorithm Model
 
-## Comparation of Support Vector Machine and Naive Bayes Algorithm Model
 
 ```python
 def perf_measure(y_actual, y_hat):
