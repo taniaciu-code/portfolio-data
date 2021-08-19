@@ -36,7 +36,21 @@ layout: project
 ---
 
 <div align="justify">
-
+The high number of SMS spamming cases 
+causes this case to become one of unsettling cases in 
+society. Therefore, it is necessary to have a spam filter 
+with the concept of SMS spam detection. This study 
+compares the performance of Support Vector Machine 
+(SVM) and Naïve Bayes algorithm to find the appropriate 
+algorithm for SMS spam detection. The SMS spam data 
+collected from the UCI dataset repository will be used in 
+data pre-processing which includes the process of labeling 
+and dropping column, removing stop words, stemming, 
+and feature extraction. Data that has been previously 
+processed will be divided into training data for data 
+modeling with Support Vector Machine and Naïve Bayes 
+algorithms, as well as data testing for data validation 
+process using confusion matrix. </div>
 ## Retrieve Data
 
 
