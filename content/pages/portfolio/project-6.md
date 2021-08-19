@@ -132,6 +132,10 @@ no multicollinearity in the relationship between variables where each independen
 
 ## Split data
 
+<div align="justify">
+Data that has been imported will be taken as many as 293 random data as a basis for analysis. The data is divided into train data and test data. 
+</div>
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 set.seed(293)
 trainIndex<-createDataPartition(y=Data1$target
