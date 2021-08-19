@@ -134,7 +134,7 @@ summary(LogisticPrediction)
 
 ```
 
-Validation data with Confusion Matrix
+## Validation data with Confusion Matrix
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(tools)
