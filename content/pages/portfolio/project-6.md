@@ -102,8 +102,6 @@ ggcorr(Data, nbreaks=8,
        label_color='black')
 ```
 
-
-
 ## Split data
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
