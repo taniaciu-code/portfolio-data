@@ -1,6 +1,6 @@
 ---
 title: About Tania
-image: images/about.jpg
+image: /images/I'm Tania!.png
 image_alt: A man taking a picture
 seo:
   title: About Us
