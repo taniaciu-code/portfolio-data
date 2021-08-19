@@ -35,19 +35,19 @@ Hello, my name is Tania Ciu. I have a passion in data science, data analytics, a
 ## Education
 
 **Universitas Multimedia Nusantara**
-Aug 2018 - Present
-Bachelor's Degree 
-Majoring in Information System CGPA: 3.9 / 4.0
+Aug 2018 - Present  
+Bachelor's Degree   
+Majoring in Information System CGPA: 3.9 / 4.0  
 
 ## Certification
 
 **Certified International Specialist in Data Visualization (Founding Stage)**
-Feb 2021 - Sept 2024
-Published by: PASAS Institute, Singapore
+Feb 2021 - Sept 2024  
+Published by: PASAS Institute, Singapore  
 Credential ID: CISDV 04745
 
 ## Personal Contact
-LinkedIn : <https://www.linkedin.com/in/tania-ciu-3b558b1a2/>
-Email       : <tania.ciu@student.umn.ac.id>
-Phone      : 0852-1329-0846
+LinkedIn : <https://www.linkedin.com/in/tania-ciu-3b558b1a2/>  
+Email       : <tania.ciu@student.umn.ac.id>  
+Phone      : 0852-1329-0846  
 Address   : Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia
