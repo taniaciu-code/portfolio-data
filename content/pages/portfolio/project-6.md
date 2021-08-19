@@ -100,7 +100,7 @@ ggcorr(Data, nbreaks=8,
        label_color='black')
 ```
 
-Split data
+## Split data
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 set.seed(293)
