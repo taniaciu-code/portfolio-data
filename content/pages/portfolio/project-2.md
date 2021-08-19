@@ -179,6 +179,10 @@ plt.show()
 
 ## Data Cleansing & Text Preprocessing
 
+<div align="justify">
+Based on the results of data exploration, it is found that there is an imbalanced class in the target variable data, namely the "rating" variable. To overcome this, a downsampling method can be used. Thus, each class will use 12,705 data where the amount of data is the smallest amount of data owned by the class in the "rating" attribute.
+</div>
+
 
 ```python
 import string
