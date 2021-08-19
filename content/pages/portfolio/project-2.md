@@ -117,7 +117,9 @@ df.head()
 </table>
 </div>
 
-
+<div align="justify">
+In this study, an exploration was carried out on two data provided by the Shopee Code League, namely train.csv data and test.csv data. Based on the exploration results, it was found that the training data contains 146,811 rows of data with 3 attributes including “review_id”, “review”, and "rating” and does not contain null values.
+</div>
 
 
 ```python
