@@ -44,7 +44,7 @@ rating and review given. In this project, we will build a multiclass text classi
 
 ## Data Preparation
 
-
+<div align="k>
 
 ```python
 import pandas as pd
