@@ -44,7 +44,9 @@ rating and review given. In this project, we will build a multiclass text classi
 
 ## Data Preparation
 
-<div align="k>
+<div align="justify">
+Data preparation is a data preparation stage that can include the process of retrieving or retrieval of raw data for use in the machine learning model development process. The training data that will be used in the study are as follows.
+</div>
 
 ```python
 import pandas as pd
