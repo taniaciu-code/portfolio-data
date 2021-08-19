@@ -1,6 +1,6 @@
 ---
 title: Twitter Sentiment Analysis on Bank Nasional Indonesia Stock
-subtitle: Optional Project Subtitle
+subtitle: Aug 2020 - Dec 2020
 date: '2019-01-05'
 thumb_image: /images/stock.jpg
 thumb_image_alt: A white gamepad on a green background
