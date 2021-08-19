@@ -34,9 +34,7 @@ seo:
       relativeUrl: true
 layout: project
 ---
-
 ## Retrieve Data
-
 
 ```python
 import pandas as pd
@@ -163,8 +161,6 @@ data
 </table>
 <p>5572 rows × 5 columns</p>
 </div>
-
-
 
 ## Data Pre-Processing
 
@@ -431,9 +427,6 @@ features = vectorizer.fit_transform(textFeatures)
 
     C:\Users\Tania Ciu\anaconda3\lib\site-packages\sklearn\utils\validation.py:68: FutureWarning: Pass input=english as keyword args. From version 0.25 passing these as positional arguments will result in an error
       warnings.warn("Pass {} as keyword args. From version 0.25 "
-    
-
-## Data Splitting
 
 ## Data Splitting
 
@@ -449,7 +442,6 @@ X_train, X_test, y_train, y_test = train_test_split(features, encoded_labels,
 ```
 
 ## Data Modeling and Data Validation
-
 
 ```python
 import numpy as np 
@@ -477,7 +469,6 @@ def plot_confusion_matrix(matrix):
 
 ### Modeling with Support Vector Machine Algorithm
 
-
 ```python
 from sklearn import svm
 
@@ -492,12 +483,9 @@ plot_confusion_matrix(conf_matrix_svm)
 
     Accuracy Score = 0.9706937799043063
 
-![png](/images/output_17_1.png)
-
+![png](/images/output\_17\_1.png)
 
 ### Modeling with Naive Bayes Algorithm
-
-### *Modeling with Naive Bayes Algorithm*
 
 ```python
 from sklearn.naive_bayes import GaussianNB
@@ -513,12 +501,9 @@ plot_confusion_matrix(conf_matrix_nb)
 
     Accuracy Score = 0.8738038277511961
 
-![png](/images/output_191.png)
-
+![png](/images/output\_191.png)
 
 ## Comparation of Support Vector Machine and Naive Bayes Algorithm Model
-
-## *Comparation of Support Vector Machine and Naive Bayes Algorithm Model*
 
 ```python
 def perf_measure(y_actual, y_hat):
@@ -581,8 +566,4 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
 
     <matplotlib.legend.Legend at 0x2630c58e3d0>
 
-
-
-
 ![png](/images/output_compare.png)
-
