@@ -51,6 +51,12 @@ The above dashboard comes with a bar chart showing the differences between the t
 
 ![](/images/Das2.png)
 
+<div align="justify">
+In the dashboard above, the researcher uses the tools available in Tableau to visualize flood disaster data in Indonesia. The map made consists of a map of Indonesia, which is divided by district/city using data from GADM. On the map, tooltips are equipped with the name of the selected district/city, the number of floods in the 1985-2020 period, and a bar chart showing how many victims died due to flooding in the area.
+<br>
+At the top right of the dashboard, you can see a bar chart showing the number of floods per year in the districts/cities selected by the user on the map on the left. Meanwhile, at the bottom right of the dashboard, there is a web page object that can access Wikipedia. The web page object will open the Wikipedia page that matches the user's choice on the map.
+</div>
+
 ### Dashboard | Flood Frequency and Average Temperature&#xA;![](/images/Das3.png)
 
 ## Prediction Visualization
