@@ -6,7 +6,7 @@ subtitle: Jan 2021 - Jun 2021
 date: '2019-05-10'
 thumb_image: /images/client.jpg
 thumb_image_alt: 'White, black, and red shoe sole'
-image: /images/client.jpg
+image: /images/client-bb6a2564.jpg
 image_alt: 'White, black, and red shoe sole'
 seo:
   title: Project Title 1
