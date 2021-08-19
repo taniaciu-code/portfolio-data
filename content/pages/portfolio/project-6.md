@@ -102,6 +102,7 @@ ggcorr(Data, nbreaks=8,
        label_size=5, 
        label_color='black')
 ```
+![png](/images/data4.png)
 
 ## Split data
 
