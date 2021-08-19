@@ -78,6 +78,7 @@ Data1$target <- as.factor(Data1$target)
 describe(Data1)
 str(Data1)
 ```
+![png](/images/data2.png)
 
 ## Plot histogram
 
