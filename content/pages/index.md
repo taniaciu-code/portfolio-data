@@ -24,7 +24,9 @@ sections:
   - section_id: services
     type: section_grid
     title: Services
-    subtitle: An optional subtitle of the section
+    subtitle: >-
+      Let me help make better use of your data. My expertise can be used to
+      clean, analyze, interpret and visualize you data.
     col_number: two
     is_numbered: true
     grid_items:
