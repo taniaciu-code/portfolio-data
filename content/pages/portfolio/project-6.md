@@ -89,7 +89,7 @@ describe(Data1)
 str(Data1)
 
 ```
-
+![png](/images/data2.JPG)
 
 
 ## Plot histogram
@@ -101,7 +101,7 @@ plot_histogram(Data,
                title="Variables in Data")
 
 ```
-
+![png](/images/data3.JPG)
 
 
 ## Plot Correlation
@@ -116,7 +116,7 @@ ggcorr(Data, nbreaks=8,
        label_color='black')
 
 ```
-
+![png](/images/data4.JPG)
 
 
 ## Split data
@@ -133,6 +133,7 @@ test_data
 describe(test_data)
 
 ```
+![png](/images/data5.JPG)
 
 ## Modeling Logistic Regression
 
