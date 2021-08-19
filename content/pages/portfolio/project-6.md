@@ -35,8 +35,6 @@ seo:
 layout: project
 ---
 
-Tania Ciu
-00000027615
 
 Mengimport library
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
