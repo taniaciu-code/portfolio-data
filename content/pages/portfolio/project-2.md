@@ -2,7 +2,7 @@
 title: >-
   Multiclass Text Classification using Long Short Term Memory: Product Review &
   Rating Prediction
-subtitle: Optional Project Subtitle
+subtitle: Jan 2021 - Jun 2021
 date: '2019-04-30'
 thumb_image: /images/productreview1.jpg
 thumb_image_alt: An orange on a blue background
