@@ -35,10 +35,592 @@ seo:
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo. In vitae turpis massa sed. Mauris nunc congue nisi vitae suscipit tellus mauris a. Phasellus egestas tellus rutrum tellus pellentesque. Nulla facilisi morbi tempus iaculis urna id volutpat. Ac tortor vitae purus faucibus ornare suspendisse sed. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Suspendisse interdum consectetur libero id. Quisque egestas diam in arcu. Eget gravida cum sociis natoque penatibus et. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Etiam dignissim diam quis enim. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Nulla malesuada pellentesque elit eget gravida cum sociis natoque. Ut venenatis tellus in metus vulputate eu scelerisque felis. Porttitor eget dolor morbi non arcu risus quis varius quam. Volutpat lacus laoreet non curabitur. Vulputate mi sit amet mauris commodo quis imperdiet massa.
+**Retrieve Data**
 
->"Design adds value faster than it adds costs." - Joel Spolsky
 
-Amet risus nullam eget felis eget. Quisque egestas diam in arcu cursus euismod quis. Nibh nisl condimentum id venenatis a condimentum. Condimentum vitae sapien pellentesque habitant morbi. Adipiscing bibendum est ultricies integer quis auctor elit. Velit laoreet id donec ultrices. Neque egestas congue quisque egestas diam. Euismod quis viverra nibh cras pulvinar mattis. Lobortis scelerisque fermentum dui faucibus. Arcu felis bibendum ut tristique. Metus vulputate eu scelerisque felis imperdiet proin fermentum. Enim nunc faucibus a pellentesque sit amet porttitor. Nec nam aliquam sem et tortor consequat. Ullamcorper a lacus vestibulum sed arcu non. Semper quis lectus nulla at volutpat. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Ut pharetra sit amet aliquam id diam maecenas ultricies. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Morbi tincidunt ornare massa eget.
+```python
+import pandas as pd
+data = pd.read_csv('SMSSpamCollection.csv', encoding='latin-1')
+data
+```
 
-Netus et malesuada fames ac turpis. Morbi tristique senectus et netus. Tempor commodo ullamcorper a lacus vestibulum sed. Id eu nisl nunc mi ipsum. Sed ullamcorper morbi tincidunt ornare. Tellus in metus vulputate eu scelerisque felis. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Neque volutpat ac tincidunt vitae. Enim diam vulputate ut pharetra sit amet aliquam. In eu mi bibendum neque egestas congue quisque egestas. At imperdiet dui accumsan sit. Diam sit amet nisl suscipit. Tellus in metus vulputate eu. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Fusce ut placerat orci nulla pellentesque dignissim. Neque egestas congue quisque egestas diam in arcu.
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>v1</th>
+      <th>v2</th>
+      <th>Unnamed: 2</th>
+      <th>Unnamed: 3</th>
+      <th>Unnamed: 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ham</td>
+      <td>Go until jurong point, crazy.. Available only ...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ham</td>
+      <td>Ok lar... Joking wif u oni...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>spam</td>
+      <td>Free entry in 2 a wkly comp to win FA Cup fina...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ham</td>
+      <td>U dun say so early hor... U c already then say...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>ham</td>
+      <td>Nah I don't think he goes to usf, he lives aro...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>5567</th>
+      <td>spam</td>
+      <td>This is the 2nd time we have tried 2 contact u...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5568</th>
+      <td>ham</td>
+      <td>Will Ì_ b going to esplanade fr home?</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5569</th>
+      <td>ham</td>
+      <td>Pity, * was in mood for that. So...any other s...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5570</th>
+      <td>ham</td>
+      <td>The guy did some bitching but I acted like i'd...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5571</th>
+      <td>ham</td>
+      <td>Rofl. Its true to its name</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>5572 rows × 5 columns</p>
+</div>
+
+
+
+**Data Pre-Processing**
+
+
+```python
+data = data.drop(["Unnamed: 2", "Unnamed: 3", "Unnamed: 4"], axis=1)
+data.columns = ["label", "text"]
+data
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>label</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ham</td>
+      <td>Go until jurong point, crazy.. Available only ...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ham</td>
+      <td>Ok lar... Joking wif u oni...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>spam</td>
+      <td>Free entry in 2 a wkly comp to win FA Cup fina...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ham</td>
+      <td>U dun say so early hor... U c already then say...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>ham</td>
+      <td>Nah I don't think he goes to usf, he lives aro...</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>5567</th>
+      <td>spam</td>
+      <td>This is the 2nd time we have tried 2 contact u...</td>
+    </tr>
+    <tr>
+      <th>5568</th>
+      <td>ham</td>
+      <td>Will Ì_ b going to esplanade fr home?</td>
+    </tr>
+    <tr>
+      <th>5569</th>
+      <td>ham</td>
+      <td>Pity, * was in mood for that. So...any other s...</td>
+    </tr>
+    <tr>
+      <th>5570</th>
+      <td>ham</td>
+      <td>The guy did some bitching but I acted like i'd...</td>
+    </tr>
+    <tr>
+      <th>5571</th>
+      <td>ham</td>
+      <td>Rofl. Its true to its name</td>
+    </tr>
+  </tbody>
+</table>
+<p>5572 rows × 2 columns</p>
+</div>
+
+
+
+
+```python
+data['length'] = data['text'].apply(len)
+data
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>label</th>
+      <th>text</th>
+      <th>length</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ham</td>
+      <td>Go until jurong point, crazy.. Available only ...</td>
+      <td>111</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ham</td>
+      <td>Ok lar... Joking wif u oni...</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>spam</td>
+      <td>Free entry in 2 a wkly comp to win FA Cup fina...</td>
+      <td>155</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ham</td>
+      <td>U dun say so early hor... U c already then say...</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>ham</td>
+      <td>Nah I don't think he goes to usf, he lives aro...</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>5567</th>
+      <td>spam</td>
+      <td>This is the 2nd time we have tried 2 contact u...</td>
+      <td>161</td>
+    </tr>
+    <tr>
+      <th>5568</th>
+      <td>ham</td>
+      <td>Will Ì_ b going to esplanade fr home?</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <th>5569</th>
+      <td>ham</td>
+      <td>Pity, * was in mood for that. So...any other s...</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <th>5570</th>
+      <td>ham</td>
+      <td>The guy did some bitching but I acted like i'd...</td>
+      <td>125</td>
+    </tr>
+    <tr>
+      <th>5571</th>
+      <td>ham</td>
+      <td>Rofl. Its true to its name</td>
+      <td>26</td>
+    </tr>
+  </tbody>
+</table>
+<p>5572 rows × 3 columns</p>
+</div>
+
+
+
+
+```python
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+
+mpl.rcParams['patch.force_edgecolor'] = True
+plt.style.use('seaborn-bright')
+data.hist(column='length', by='label', bins=50,figsize=(11,5), color = "darkturquoise")
+```
+
+
+
+
+    array([<matplotlib.axes._subplots.AxesSubplot object at 0x000002630923E190>,
+           <matplotlib.axes._subplots.AxesSubplot object at 0x0000026309231910>],
+          dtype=object)
+
+
+
+
+![png](output_5_1.png)
+
+
+
+```python
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt 
+def generate_wordcloud(all_words):
+    wordcloud = WordCloud(width=800, height=500, random_state=21, 
+                          max_font_size=100, relative_scaling=0.5, 
+                          colormap='RdBu').generate(all_words)
+
+    plt.figure(figsize=(6, 6))
+    plt.imshow(wordcloud, interpolation="bilinear")
+    plt.axis('off')
+    plt.show()
+```
+
+
+```python
+ham = ' '.join([text for text in data['text'][data.label == "ham"]])
+generate_wordcloud(ham)
+```
+
+
+![png](output_7_0.png)
+
+
+
+```python
+spam = ' '.join([text for text in data['text'][data.label == "spam"]])
+generate_wordcloud(spam)
+```
+
+
+![png](output_8_0.png)
+
+
+
+```python
+from nltk.stem import SnowballStemmer
+def pre_process(text):
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    text = [word for word in text.split() 
+            if word.lower() not in stopwords.words('english')]
+    words = ""
+    for i in text:
+            stemmer = SnowballStemmer("english")
+            words += (stemmer.stem(i))+" "
+    return words
+
+```
+
+
+```python
+import nltk
+import string
+#nltk.download("stopwords")
+from nltk.corpus import stopwords
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+textFeatures = data['text'].copy()
+textFeatures = textFeatures.apply(pre_process)
+vectorizer = TfidfVectorizer("english")
+features = vectorizer.fit_transform(textFeatures)
+```
+
+    C:\Users\Tania Ciu\anaconda3\lib\site-packages\sklearn\utils\validation.py:68: FutureWarning: Pass input=english as keyword args. From version 0.25 passing these as positional arguments will result in an error
+      warnings.warn("Pass {} as keyword args. From version 0.25 "
+    
+
+**Data Splitting**
+
+
+```python
+# Map dataframe to encode values and put values into a numpy array
+encoded_labels = data['label'].map(lambda x: 1 if x == 'spam' else 0).values # ham will be 0 and spam will be 1
+```
+
+
+```python
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(features, encoded_labels, 
+                                                    test_size=0.3, random_state=272)
+```
+
+**Data Modeling and Data Validation**
+
+
+```python
+import numpy as np 
+
+from sklearn.metrics import f1_score, confusion_matrix, accuracy_score, precision_score, recall_score
+
+# Calculate accuracy by using confusion matrix
+def plot_confusion_matrix(matrix):
+    plt.clf()
+    plt.imshow(matrix, interpolation='nearest', cmap=plt.cm.GnBu)
+    classNames = ['Positive', 'Negative']
+    plt.title('Confusion Matrix')
+    plt.ylabel('Predicted')
+    plt.xlabel('Actual')
+    tick_marks = np.arange(len(classNames))
+    plt.xticks(tick_marks, classNames)
+    plt.yticks(tick_marks, classNames)
+    s = [['TP','FP'], ['FN', 'TN']]
+
+    for i in range(2):
+        for j in range(2):
+            plt.text(j,i, str(s[i][j])+" = "+str(matrix[i][j]))
+    plt.show()
+```
+
+*Support Vector Machine Algorithm*
+
+
+```python
+from sklearn import svm
+
+svm_clf = svm.SVC(kernel='sigmoid', gamma=1.0,probability=True)
+svm_clf.fit(X_train,y_train)
+pred_svm = svm_clf.predict(X_test.toarray())
+accuracy_svm = accuracy_score(y_test, pred_svm)
+print(f'Accuracy Score = {accuracy_svm}')
+conf_matrix_svm = confusion_matrix(y_test, pred_svm)
+plot_confusion_matrix(conf_matrix_svm)
+```
+
+    Accuracy Score = 0.9706937799043063
+    
+
+
+![png](output_17_1.png)
+
+
+*Naive Bayes Algorithm*
+
+
+```python
+from sklearn.naive_bayes import GaussianNB
+
+nb_clf = GaussianNB()
+nb_clf.fit(X_train.toarray(), y_train)
+pred_nb = nb_clf.predict(X_test.toarray())
+accuracy_nb = accuracy_score(y_test, pred_nb)
+print(f'Accuracy Score = {accuracy_nb}')
+conf_matrix_nb = confusion_matrix(y_test, pred_nb)
+plot_confusion_matrix(conf_matrix_nb)
+```
+
+    Accuracy Score = 0.8738038277511961
+    
+
+
+![png](output_19_1.png)
+
+
+***Support Vector Machine and Naive Bayes Algorithm***
+
+
+```python
+def perf_measure(y_actual, y_hat):
+    y_actual=np.array(y_actual)
+    y_hat=np.array(y_hat)
+    TP = 0
+    FP = 0
+    TN = 0
+    FN = 0
+
+    for i in range(len(y_hat)): 
+        if y_actual[i]==y_hat[i] and y_hat[i]==1:
+           TP += 1
+        if y_hat[i]==1 and y_actual[i]!=y_hat[i]:
+           FP += 1
+        if y_actual[i]==y_hat[i]==0:
+           TN += 1
+        if y_hat[i]==0 and y_actual[i]!=y_hat[i]:
+           FN += 1
+
+    return(TP, FP, TN, FN)
+```
+
+
+```python
+classifiers=[]
+classifiers.append(('SVM',svm_clf))
+classifiers.append(('NB',nb_clf))
+
+result=[]
+cnf_matric_parameter=[]
+for i,v in classifiers:
+    pred=v.predict(X_test.todense())
+    acc=accuracy_score(y_test,pred)
+    precision = precision_score(y_test,pred)
+    recall=recall_score(y_test, pred)
+    #print(precision)
+    f_measure=f1_score(y_test,pred)
+    result.append((i,acc,precision,recall,f_measure))
+    
+    TP,FP,TN,FN=perf_measure(y_test,pred)
+    cnf_matric_parameter.append((i,TP,FP,TN,FN))
+```
+
+
+```python
+column_names=['Algorithm','Accuracy','Precision','Recall','F-measure']
+df1=pd.DataFrame(result,columns=column_names)
+print(df1)
+```
+
+      Algorithm  Accuracy  Precision    Recall  F-measure
+    0       SVM  0.970694   0.975490  0.818930   0.890380
+    1        NB  0.873804   0.540404  0.880658   0.669797
+    
+
+
+```python
+df1.plot(kind='bar', ylim=(0.2,1.0), align='center', colormap="RdBu")
+plt.xticks(np.arange(2), df1['Algorithm'],fontsize=12)
+plt.ylabel('Score',fontsize=12)
+plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
+```
+
+
+
+
+    <matplotlib.legend.Legend at 0x2630c58e3d0>
+
+
+
+
+![png](output_24_1.png)
+
