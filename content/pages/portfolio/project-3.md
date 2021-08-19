@@ -34,18 +34,13 @@ seo:
       relativeUrl: true
 layout: project
 ---
-
-**Retrieve Data**
-
+## Retrieve Data
 
 ```python
 import pandas as pd
 data = pd.read_csv('SMSSpamCollection.csv', encoding='latin-1')
 data
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -60,6 +55,7 @@ data
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -166,19 +162,13 @@ data
 <p>5572 rows × 5 columns</p>
 </div>
 
-
-
 **Data Pre-Processing**
-
 
 ```python
 data = data.drop(["Unnamed: 2", "Unnamed: 3", "Unnamed: 4"], axis=1)
 data.columns = ["label", "text"]
 data
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -193,6 +183,7 @@ data
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -263,16 +254,10 @@ data
 <p>5572 rows × 2 columns</p>
 </div>
 
-
-
-
 ```python
 data['length'] = data['text'].apply(len)
 data
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -287,6 +272,7 @@ data
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -369,9 +355,6 @@ data
 <p>5572 rows × 3 columns</p>
 </div>
 
-
-
-
 ```python
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -381,19 +364,11 @@ plt.style.use('seaborn-bright')
 data.hist(column='length', by='label', bins=50,figsize=(11,5), color = "darkturquoise")
 ```
 
-
-
-
     array([<matplotlib.axes._subplots.AxesSubplot object at 0x000002630923E190>,
            <matplotlib.axes._subplots.AxesSubplot object at 0x0000026309231910>],
           dtype=object)
 
-
-
-
-![png](/images/output_5_1.png)
-
-
+![png](/images/output\_5\_1.png)
 
 ```python
 from wordcloud import WordCloud
@@ -409,26 +384,19 @@ def generate_wordcloud(all_words):
     plt.show()
 ```
 
-
 ```python
 ham = ' '.join([text for text in data['text'][data.label == "ham"]])
 generate_wordcloud(ham)
 ```
 
-
-![png](/images/output_7_0.png)
-
-
+![png](/images/output\_7\_0.png)
 
 ```python
 spam = ' '.join([text for text in data['text'][data.label == "spam"]])
 generate_wordcloud(spam)
 ```
 
-
-![png](/images/output_8_0.png)
-
-
+![png](/images/output\_8\_0.png)
 
 ```python
 from nltk.stem import SnowballStemmer
@@ -443,7 +411,6 @@ def pre_process(text):
     return words
 
 ```
-
 
 ```python
 import nltk
@@ -460,16 +427,13 @@ features = vectorizer.fit_transform(textFeatures)
 
     C:\Users\Tania Ciu\anaconda3\lib\site-packages\sklearn\utils\validation.py:68: FutureWarning: Pass input=english as keyword args. From version 0.25 passing these as positional arguments will result in an error
       warnings.warn("Pass {} as keyword args. From version 0.25 "
-    
 
-**Data Splitting**
-
+## Data Splitting
 
 ```python
 # Map dataframe to encode values and put values into a numpy array
 encoded_labels = data['label'].map(lambda x: 1 if x == 'spam' else 0).values # ham will be 0 and spam will be 1
 ```
-
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -477,8 +441,7 @@ X_train, X_test, y_train, y_test = train_test_split(features, encoded_labels,
                                                     test_size=0.3, random_state=272)
 ```
 
-**Data Modeling and Data Validation**
-
+## Data Modeling and Data Validation
 
 ```python
 import numpy as np 
@@ -504,8 +467,7 @@ def plot_confusion_matrix(matrix):
     plt.show()
 ```
 
-*Support Vector Machine Algorithm*
-
+### *Modeling with Support Vector Machine Algorithm*
 
 ```python
 from sklearn import svm
@@ -520,14 +482,10 @@ plot_confusion_matrix(conf_matrix_svm)
 ```
 
     Accuracy Score = 0.9706937799043063
-    
 
+![png](/images/output\_17\_1.png)
 
-![png](/images/output_17_1.png)
-
-
-*Naive Bayes Algorithm*
-
+### *Modeling with Naive Bayes Algorithm*
 
 ```python
 from sklearn.naive_bayes import GaussianNB
@@ -542,14 +500,10 @@ plot_confusion_matrix(conf_matrix_nb)
 ```
 
     Accuracy Score = 0.8738038277511961
-    
 
+![png](/images/output\_19\_1.png)
 
-![png](/images/output_19_1.png)
-
-
-***Support Vector Machine and Naive Bayes Algorithm***
-
+## *Comparation of Support Vector Machine and Naive Bayes Algorithm Model*
 
 ```python
 def perf_measure(y_actual, y_hat):
@@ -573,7 +527,6 @@ def perf_measure(y_actual, y_hat):
     return(TP, FP, TN, FN)
 ```
 
-
 ```python
 classifiers=[]
 classifiers.append(('SVM',svm_clf))
@@ -594,7 +547,6 @@ for i,v in classifiers:
     cnf_matric_parameter.append((i,TP,FP,TN,FN))
 ```
 
-
 ```python
 column_names=['Algorithm','Accuracy','Precision','Recall','F-measure']
 df1=pd.DataFrame(result,columns=column_names)
@@ -604,8 +556,6 @@ print(df1)
       Algorithm  Accuracy  Precision    Recall  F-measure
     0       SVM  0.970694   0.975490  0.818930   0.890380
     1        NB  0.873804   0.540404  0.880658   0.669797
-    
-
 
 ```python
 df1.plot(kind='bar', ylim=(0.2,1.0), align='center', colormap="RdBu")
@@ -614,13 +564,6 @@ plt.ylabel('Score',fontsize=12)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
 ```
 
-
-
-
     <matplotlib.legend.Legend at 0x2630c58e3d0>
 
-
-
-
-![png](/images/output_24_1.png)
-
+![png](/images/output\_24\_1.png)
