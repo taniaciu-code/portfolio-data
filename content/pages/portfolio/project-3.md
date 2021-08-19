@@ -492,7 +492,10 @@ plot_confusion_matrix(conf_matrix_svm)
 
     Accuracy Score = 0.9706937799043063
 
-![png](/images/output\_17\_1.png)
+![png](/images/output_17_1.png)
+
+
+### Modeling with Naive Bayes Algorithm
 
 ### *Modeling with Naive Bayes Algorithm*
 
