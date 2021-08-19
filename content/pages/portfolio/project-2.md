@@ -846,7 +846,7 @@ plot_graphs(history, "loss")
 ```
 
 
-![png](/images/output_36_0.png)
+![png](/images/output_graph.png)
 
 
 
