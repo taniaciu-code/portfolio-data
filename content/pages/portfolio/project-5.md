@@ -956,7 +956,7 @@ generate_wordcloud(all_words21)
 ```
 
 
-![png](output_37_0.png)
+![png](/images/output_37_0.png)
 
 
 **Feature Extraction Using CountVectorizer**
