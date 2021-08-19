@@ -38,7 +38,7 @@ layout: project
 ---
 
 <div align="justify>
-—With the easiness of expressing one’s expression 
+With the easiness of expressing one’s expression 
 through digital advancements in technologies, social media has 
 become a medium for people to express their feelings. This 
 phenomena is also happening in the e-commerce industry, where 
