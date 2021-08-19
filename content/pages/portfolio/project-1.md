@@ -1096,6 +1096,6 @@ plt.ylabel('Score',fontsize=12)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
 ```
 
-![png](/images/output_47_1.png)
+![png](/images/output_bar.png)
 
 
