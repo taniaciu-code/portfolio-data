@@ -1042,7 +1042,7 @@ plt.show()
     
 
 
-![png](output_46_1.png)
+![png](/images/output_46_1.png)
 
 
 
