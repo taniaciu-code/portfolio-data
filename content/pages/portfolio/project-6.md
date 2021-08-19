@@ -225,28 +225,8 @@ concluded that the logistic regression model is an appropriate and effective mod
 </div>
 
 ## Conclusions
-By using the Heart Disease UCI dataset consisting 
-of fourteen variables, including age, sex, cp, fbs, 
-restecg, thalac, exang, oldpeak, slope, ca, thal, and 
-target, it was found that the use of the logistic 
-regression algorithm is effective and efficient in 
-predicting cardiovascular disease where based on the 
-results of data validation it is found that the accuracy 
-of the prediction results with the algorithm reaches 
-85% with an error rate that tends to be small at 
-0.1406565. It proves that this algorithm is suitable for 
-use as a prediction algorithm in this study.
-Based on the results of cardiovascular disease 
-predictions, it can be concluded that cardiovascular 
-disease is significantly affected by gender, trestbps -
-blood pressure level, thalach - heart rate, and canumber of vessels affected by fluoroscopy. An 
-increase in the value of these variables will have an 
-impact on overall cardiovascular performance where 
-the cardiovascular performance will decrease, while 
-the potential for cardiovascular disease is predicted to 
-increase. The use of the logistic regression algorithm 
-is successful in predicting the main factors causing 
-cardiovascular disease where the main elements of the 
-disease are gender factors, blood pressure level 
-factors, heart rate level factors, and blood vessel 
-colour factors (vessels).
+By using the Heart Disease UCI dataset consisting of fourteen variables, including age, sex, cp, fbs, restecg, thalac, exang, oldpeak, slope, ca, thal, and target, it was found that the use of the logistic regression algorithm is effective and efficient in predicting cardiovascular disease where based on the results of data validation it is found that the accuracy 
+of the prediction results with the algorithm reaches 85% with an error rate that tends to be small at 0.1406565. It proves that this algorithm is suitable for use as a prediction algorithm in this study.
+Based on the results of cardiovascular disease predictions, it can be concluded that cardiovascular disease is significantly affected by gender, trestbps - blood pressure level, thalach - heart rate, and canumber of vessels affected by fluoroscopy. An increase in the value of these variables will have an impact on overall cardiovascular performance where 
+the cardiovascular performance will decrease, while the potential for cardiovascular disease is predicted to 
+increase. The use of the logistic regression algorithm is successful in predicting the main factors causing cardiovascular disease where the main elements of the disease are gender factors, blood pressure level factors, heart rate level factors, and blood vessel colour factors (vessels).
