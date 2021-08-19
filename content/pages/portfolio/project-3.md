@@ -426,7 +426,7 @@ generate_wordcloud(spam)
 ```
 
 
-![png](output_8_0.png)
+![png](/images/output_8_0.png)
 
 
 
