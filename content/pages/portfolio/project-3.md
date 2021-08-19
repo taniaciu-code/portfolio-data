@@ -1,5 +1,5 @@
 ---
-title: 'Support Vector Machine & Naive Bayes Based Spam '
+title: Support Vector Machine & Naive Bayes Based Spam SMS Detection
 subtitle: Optional Project Subtitle
 date: '2019-04-08'
 thumb_image: images/3_thumb.jpg
