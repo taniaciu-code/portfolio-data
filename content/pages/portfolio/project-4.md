@@ -65,7 +65,7 @@ At the top right of the dashboard, you can see a bar chart showing the number of
 
 ### Dashboard | Region and Flood Duration Clustering in Indonesia
 
-![](/images/Das4.png)
+![png](/images/Das4.png)
 
 ### Dashboard | Comparison of 5 Types of Trend Lines between Average Temperature and Rainfall Rates
 
