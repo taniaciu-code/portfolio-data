@@ -38,6 +38,7 @@ layout: project
 ---
 <div align="justify">
 The high internal competition and the financial crisis in Portuguese bank institutions prompted the company to apply the telemarketing method. It is because telemarketing usage minimizes the resources spent on the marketing process so it can reduce financial assets pressure. However, the telemarketing implementation is constrained by the predictions of potential clients who are interested in the long-term deposits offered. Moreover, the large amount of client data causes the traditional data processing unable to accommodate the data processing. This study aims to build a classification model that will assist Portuguese banks in predicting potential clients as part of the client targeting process in telemarketing. </div>
+
 ## Data Understanding
 
 ### Import Dataset 
