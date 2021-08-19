@@ -946,7 +946,7 @@ generate_wordcloud(all_words21)
 ```
 
 
-![png](output_36_0.png)
+![png](/images/output_36_0.png)
 
 
 
