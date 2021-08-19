@@ -62,7 +62,7 @@ View(heart)
 Data<-heart
 ```
 
-Variable as factor
+## Variable as factor
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 Data1 <- copy(Data)
