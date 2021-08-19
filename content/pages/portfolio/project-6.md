@@ -63,8 +63,6 @@ Data<-heart
 
 ```
 
-
-
 ## Variable as factor
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
