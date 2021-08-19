@@ -1081,7 +1081,7 @@ metrics(y_test, predict_SVM)
     
 
 
-![png](output_42_1.png)
+![png](/images/output_42_1.png)
 
 
 ### Model Comparison
