@@ -56,6 +56,13 @@ library(caret)
 
 ## Retrieve Data
 
+<div align="justify">
+The first process is Data Retrieval. In this process, 
+Heart Disease UCI Dataset -published by Ronit in 
+Kaggle website (https://www.kaggle.com/ronitf/heartdisease-uci)- will be used. It will be imported into the 
+Rstudio software. 
+</div>
+
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
 library(readr)
 heart <- read_csv("C:/Users/Tania Ciu/Downloads/DataAnalysis/heart.csv")
