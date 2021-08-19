@@ -545,7 +545,7 @@ plot_confusion_matrix(conf_matrix_nb)
     
 
 
-![png](output_19_1.png)
+![png](/images/output_19_1.png)
 
 
 ***Support Vector Machine and Naive Bayes Algorithm***
