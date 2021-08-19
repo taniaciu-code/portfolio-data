@@ -153,6 +153,7 @@ LogisticPrediction
 summary(LogisticPrediction)
 
 ```
+![png](/images/hasil1.JPG)
 
 ## Validation data with Confusion Matrix
 
