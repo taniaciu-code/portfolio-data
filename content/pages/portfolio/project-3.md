@@ -164,7 +164,10 @@ data
 <p>5572 rows × 5 columns</p>
 </div>
 
+
+
 ## Data Pre-Processing
+
 
 ```python
 data = data.drop(["Unnamed: 2", "Unnamed: 3", "Unnamed: 4"], axis=1)
