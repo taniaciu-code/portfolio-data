@@ -42,7 +42,6 @@ can be used as a place to invest is a bank. In this research, an analysis was ca
 Twitter sentiment with the movement of Bank Nasional Indonesia (BNI) stock data. All Twitter data as a result of web scraping will be classified into positive or negative sentiments using the Support Vector Machine (SVM) classification model. The results of the sentiment classification and the movement of Bank Nasional Indonesia (BNI) stock price data will be analyzed using the pearson correlation test method and using linear regression algorithm-based modeling to find the effect of Twitter sentiment analysis data with Bank Nasional Indonesia
 stock price data. It is hoped that this research can provide insight about the ffect of sentiment analysis from Twitter data on the movement of BNI stock price data.
 </div>
-
 ## Web Scrapping
 
 Authentication
