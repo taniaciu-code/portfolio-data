@@ -80,8 +80,6 @@ str(Data1)
 
 ```
 
-
-
 ## Plot histogram
 
 ```{r, echo = TRUE, message = FALSE, warning = FALSE}
