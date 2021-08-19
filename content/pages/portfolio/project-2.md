@@ -1255,28 +1255,7 @@ print(np.argmax(pred))
     3
     
 
-# Modeling 2 (Tryout)
-
-
-```python
-# model 2 test
-# dropout to avoid overfitting
-# softmax as multiclass clf
-model = Sequential()
-model.add(Embedding(input_dim=vocab_size, output_dim=embedding_dim, input_length=354))
-model.add(SpatialDropout1D(0.3))
-model.add(LSTM(256, dropout = 0.3, recurrent_dropout = 0.3))
-model.add(Dense(256, activation = 'relu'))
-model.add(Dropout(0.3))
-model.add(Dense(6, activation = 'softmax'))
-model.summary()
-```
-
-    WARNING:tensorflow:Layer lstm will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
-    Model: "sequential_1"
-    _________________________________________________________________
-    Layer (type)                 Output Shape              Param #   
-    =================================================================
+=============================================
     embedding_1 (Embedding)      (None, 354, 32)           224000    
     _________________________________________________________________
     spatial_dropout1d (SpatialDr (None, 354, 32)           0         
