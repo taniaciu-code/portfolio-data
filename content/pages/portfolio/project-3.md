@@ -434,7 +434,7 @@ features = vectorizer.fit_transform(textFeatures)
       warnings.warn("Pass {} as keyword args. From version 0.25 "
     
 
-## Data Splitting*
+## Data Splitting
 
 ## Data Splitting
 
