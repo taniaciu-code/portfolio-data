@@ -11,7 +11,7 @@ sections:
       skills.
     actions:
       - label: Let's talk
-        url: /
+        url: /about
         style: button
   - section_id: latest-projects
     type: section_portfolio
