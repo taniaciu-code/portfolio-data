@@ -34,7 +34,7 @@ layout: page
 
 ## Education
 
-**Universitas Multimedia Nusantara**\
+**Universitas Multimedia Nusantara** \
 Aug 2018 - Present\
 Bachelor's Degree\
 Majoring in Information System\
