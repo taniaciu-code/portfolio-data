@@ -10,7 +10,7 @@ sections:
       and data analytics fields with a good problem solving and communication
       skills.
     actions:
-      - label: Let's talk
+      - label: About Me
         url: /about
         style: button
   - section_id: latest-projects
